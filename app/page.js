@@ -7,7 +7,7 @@ import ContactImfo from "./components/ContactImfo";
 import ThirdHero from "./components/ThirdHero";
 import Parelex from "./components/Parelex";
 import Ideal from "./components/Ideal";
-import Chooses from "./components/Chooses";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export default function Home() {
   const [isModel, setIsModel] = useState(false);
@@ -39,13 +39,12 @@ export default function Home() {
   return (
     <Fragment>
       <div className="cursor"></div>
-
+      {/* <GoogleAnalytics gaId="G-JTJP41290P" /> */}
       <Hero setIsModel={setIsModel} isModel={isModel} />
       <SecondHero setIsModel={setIsModel} isModel={isModel} />
       <ThirdHero />
       <Parelex />
       <Ideal />
-      <Chooses />
       <ContactImfo />
     </Fragment>
   );

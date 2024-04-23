@@ -41,11 +41,11 @@ const ContactImfo = () => {
   };
 
   return (
-    <div className="my-8">
+    <div className="my-8" id="location">
       <h2 className="text-center font-semibold text-4xl">Location </h2>
       <div className="flex flex-col w-full md:flex-row py-14">
         <div className="w-full h-[560px]">
-          <img src={"/assets/map.jpg"} className="object-cover h-full" />
+          <img src={"/assets/maps.jpg"} className="object-cover h-full" />
         </div>
         <div className="w-full px-1 py-10 bg-white">
           <h1 className="text-black text-center text-3xl font-bold leading-[34px] tracking-[-0.15px] mb-3">
