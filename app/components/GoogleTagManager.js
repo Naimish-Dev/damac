@@ -8,7 +8,7 @@ const GoogleTagManager = () => (
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'AW-16536479128');
+          gtag('config', 'AW-16540884080');
         `,
       }}
     />
