@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
       </Head>
        <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=AW-16540884080"
+        src="https://www.googletagmanager.com/gtag/js?id=AW-16542075886"
       ></script>
       <GoogleTagManager /> 
       <body className={inter.className}>{children}</body>
