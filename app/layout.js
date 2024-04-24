@@ -14,13 +14,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
+        {/* <link rel="icon" href="/favicon.ico" sizes="any" /> */}
+        <link rel="icon" href="favicon.png" sizes="any" />
       </Head>
       <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=AW-16542161149"
       ></script>
-
 
       <Head>
         <script
