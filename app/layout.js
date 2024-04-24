@@ -23,6 +23,20 @@ export default function RootLayout({ children }) {
       ></script>
 
       <GoogleTagManager />
+
+      <Head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              gtag('event', 'conversion', {
+                  'send_to': 'AW-16542075886/NkqQCP7y06kZEO6X8M89',
+                  'value': 1.0,
+                  'currency': 'AED'
+              });
+            `,
+          }}
+        />
+      </Head>
       <body className={inter.className}>{children}</body>
       <Conact />
     </html>
