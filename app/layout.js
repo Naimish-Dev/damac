@@ -17,11 +17,12 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
-       <script
+      <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=AW-16542075886"
       ></script>
-      <GoogleTagManager /> 
+
+      <GoogleTagManager />
       <body className={inter.className}>{children}</body>
       <Conact />
     </html>
