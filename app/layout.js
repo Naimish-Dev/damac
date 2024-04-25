@@ -26,7 +26,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
 
-        <script
+        {/* <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-16542161149"
         ></script>
@@ -37,7 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
              function gtag_report_conversion(url) { var callback = function () { if (typeof(url) != 'undefined') { window.location = url; } }; gtag('event', 'conversion', { 'send_to': 'AW-16542161149/W3aeCLuo8KkZEP2x9c89', 'value': 1.0, 'currency': 'AED', 'event_callback': callback }); return false; }
             `,
           }}
-        />
+        /> */}
       </Head>
       <script></script>
       <body className={inter.className}>{children}</body>
@@ -47,7 +47,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           height="0"
           width="0"
           className="hidden"
-          // style="display:none;visibility:hidden"
         ></iframe>
       </noscript>
 
