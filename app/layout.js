@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href="favicon.ico" />
       </Head>
-      <script
+      {/* <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=AW-16542161149"
       ></script>
@@ -45,6 +45,20 @@ export default function RootLayout({ children }) {
             `,
           }}
         />
+      </Head> */}
+      <Head>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16542161149"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-16542161149');
+        `,
+          }}
+        />
+        {/* gtag('config', 'AW-16542161149'); */}
       </Head>
       <body className={inter.className}>{children}</body>
       <Conact />
