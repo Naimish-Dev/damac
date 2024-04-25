@@ -16,7 +16,27 @@ export default function RootLayout({ children }) {
       <Head>
         <link rel="icon" href="favicon.ico" />
 
-     
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-16542161149"
+        ></script>
+        <script>
+          dangerouslySetInnerHTML=
+          {{
+            __html: `
+      window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments)} gtag('js', new Date()); gtag('config', 'AW-16542161149');
+     `,
+          }}
+        </script>
+        <script>
+          dangerouslySetInnerHTML=
+          {{
+            __html: `
+gtag('event', 'conversion', { 'send_to': 'AW-16542161149/QTRFCMjGnqoZEP2x9c89', 'value': 1.0, 'currency': 'AED' })     `,
+          }}
+        </script>
+
+        {/* 
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -27,20 +47,10 @@ export default function RootLayout({ children }) {
               })(window,document,'script','dataLayer','GTM-TKHCZ893');
               `,
           }}
-        />
+        /> */}
       </Head>
 
-      <body className={inter.className}>
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-TKHCZ893"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
-        {children}
-      </body>
+      <body className={inter.className}>{children}</body>
 
       <Conact />
     </html>
