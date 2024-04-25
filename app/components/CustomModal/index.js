@@ -161,7 +161,7 @@ const CustomModal = ({ CloseModelHandler }) => {
               <button
                 disabled={isloading}
                 className=" transition-all hover:scale-105 duration-300  px-3.5 py-3 bg-blue-800 text-white text-sm font-medium leading-5 tracking-[0.21px]"
-                onClick={stopPropagation}
+                onClick={() => stopPropagation()}
               >
                 {isloading ? (
                   <div class="inline-block animate-spin rounded-full h-4 w-4 border-x-2 border-b-2 border-white"></div>
