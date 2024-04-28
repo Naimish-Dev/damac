@@ -10,11 +10,17 @@ export const metadata = {
   description: "Damac new project, DAMAC new community",
 };
 
+
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
         <link rel="icon" href="favicon.ico" />
+        <meta
+          name="keywords"
+          content="damac, damac new project, damac lagoons, damac lagoons location, damac tower, damac lagoons price, damac lagoons 2, damac lagoons for sale, damac properties for sale, damac living, damac lagoons villas for sale, lagoon damac, damac elegance tower, damac safa, damac property, damac real estate, damac lagoons photos, damac website, damac lagoon villa, damac studio for sale, lagoon damac hills, damac zada tower, damac lagoon portofino, damac reva residences, golf promenade damac hills, aykon city tower c, green acres damac hills, damac lagoons costa brava 2, aykon tower, damac city, damac lagoon price, green acres damac, damac park towers, damac golf gate, damac reva, damac homes, bellavista damac, damac company, damac canal views, lagoon by damac, damac properties price"
+        />
 
         <script
           async
